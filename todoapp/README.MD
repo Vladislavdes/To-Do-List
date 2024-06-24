@@ -37,10 +37,10 @@ To-Do-List(Менеджер задач) на Django.
 
 Добавим папку шаблонов в settings.py
 
-TEMPLATES = [
-{...,
-'DIRS': ['templates'],
-}]
+    TEMPLATES = [
+    {...,
+    'DIRS': ['templates'],
+    }]
 
 Структура файлов и папок
 
